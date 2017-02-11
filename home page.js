@@ -1,0 +1,2 @@
+﻿/*global console,alert,prompt*/
+
