@@ -1,0 +1,101 @@
+﻿ul{  list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+li{display:inline;}
+.mynavber{
+	color:rgba(229,206,242,1.00);
+	float:right;
+        
+	border-color:black;
+	}
+.navbar-child {
+    text-decoration:none;
+    color:silver;
+    padding:10px 10px;
+    display:inline;
+    font-style:oblique;
+    float:right;
+    overflow:hidden;
+    outline:outset;
+    font-size:large;
+}
+.navbar-child:active{
+    outline:inset;
+}
+.navbar-child:hover{
+  text-decoration:none;
+  color:white;
+  outline:outset;
+}
+
+.navbar-parent{
+    list-style-type: none;   
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    border-bottom:1px;
+    border-color:white;
+    padding:0;
+    margin:0;
+}
+.div1left {
+    color:white;
+    text-align:right;
+    width: 150px;
+    height: 200px;
+    background: white;
+    border: solid;
+    border: double;
+    border-color: gray;
+    background-color:rgba(0, 0, 0,0.5);
+    opacity:50%;
+    border-radius:10%;
+    text-align:justify;
+    float:left;
+    padding:5px;
+
+}   
+body{
+        background-image:url("55153144217-wallpapers-best-websites.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        margin:0;
+        
+}
+.div-parent{
+    background-color:rgba(118, 155, 165,0.7);
+    width:50%;
+    height:720px;
+    height:2;
+    border-radius:2%;
+    position:static;
+    margin:5% 25%;
+    position:inherit;
+    -webkit-user-select: none;
+    
+}
+.about{float:left;}
+h4 {font-family:'Felix Titling';
+    padding:5px;
+text-align:center;
+text-shadow:-1px 1px 1px skyblue;
+}
+p {
+    
+text-align:justify;
+text-shadow:-2px 1px 1px lightgray;
+font-family:;
+font-size:15px;
+padding:5px;
+}
+footer{
+    width:100%;
+    height:30px;
+    background-color:#333;
+    border-top:1px solid;
+    border-color:black;
+    
+}
