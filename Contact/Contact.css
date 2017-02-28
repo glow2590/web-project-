@@ -36,10 +36,11 @@ table {
     width: 80px;
 }
 body {
-background-image:url("55153144217-wallpapers-best-websites.jpg");
-background-repeat:no-repeat;
-background-size:cover;
-margin:0;
+       background-image:url("55153144217-wallpapers-best-websites.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        margin: 0;
+      
 }
 .button1{
    height:50px; 
@@ -48,42 +49,40 @@ margin:0;
 li{display:inline;}
 .mynavber{
 	color:rgba(229,206,242,1.00);
-	float:right;
-    height:60px;
+	float:left;
     
 	
 	}
 .navbar-child {
     text-decoration:none;
     color:silver;
-    padding:10px 20px;
+    padding:10px 10px;
     display:inline;
     font-style:oblique;
     float:right;
     overflow:hidden;
-    outline:outset;
+    
     font-size:large;
-
-      text-align:center;
-
 }
 .navbar-child:active{
-    outline:inset;
+    
 }
 .navbar-child:hover{
   text-decoration:none;
   color:white;
-  outline:outset
+  
 }
-.about{float:left;}
+
 .navbar-parent{
     list-style-type: none;   
-    overflow: hidden;  
+    overflow: hidden;
     position: fixed;
-    top: 0;
     width: 100%;
-    background-color: #333;
-    
+    background-color: hsl(565,80%,10%);
+    border-bottom:1px;
+    border-color:white;
+    padding:0;
+    margin:0;
 }
 .div1left {
     width: 150px;
@@ -108,7 +107,7 @@ li{display:inline;}
     border-radius:2%;
     
     position:static;
-    margin:25% 40%;
+    margin:1% 40%;
    
     position:inherit;
     
@@ -116,29 +115,22 @@ li{display:inline;}
 label{
     color:lightgray;
 }
-.footer{
+footer{
     width:100%;
     height:30px;
-    background-color:#333;
+    background-color:hsl(565,80%,10%);
     border-top:1px solid;
-    border-color:black;b
+    border-color:black;
+    position:absolute;
+    bottom:0px;
     
 }
+.about{float:left;}
 .dropbtn{
     cursor:pointer;
 }
 .dropdown{
     position:relative;
-
-}
-.dropdown-content {
-    position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100px;
-    background-color: #fff;
-    padding: 10px;
-    -webkit-box-shadow: 0 1px 1px rbga(0,0,0,.5)
 
 }
 ul{list-style:none;

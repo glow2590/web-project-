@@ -18,16 +18,16 @@ li{display:inline;}
     font-style:oblique;
     float:right;
     overflow:hidden;
-    outline:outset;
+    
     font-size:large;
 }
 .navbar-child:active{
-    outline:inset;
+
 }
 .navbar-child:hover{
   text-decoration:none;
   color:white;
-  outline:outset;
+  
 }
 
 .navbar-parent{
@@ -35,7 +35,7 @@ li{display:inline;}
     overflow: hidden;
     position: fixed;
     width: 100%;
-    background-color: #333;
+    background-color:hsl(565,80%,10%);
     border-bottom:1px;
     border-color:white;
     padding:0;
@@ -64,15 +64,16 @@ body{
         background-size:cover;
         margin:0;
         
+         
 }
 .div-parent{
     background-color:rgba(118, 155, 165,0.7);
     width:50%;
-    height:720px;
+    height:600px;c
     height:2;
     border-radius:2%;
     position:static;
-    margin:5% 25%;
+    margin:0% 25%;
     position:inherit;
     -webkit-user-select: none;
     
@@ -94,8 +95,10 @@ padding:5px;
 footer{
     width:100%;
     height:30px;
-    background-color:#333;
+    background-color:hsl(565,80%,10%);
     border-top:1px solid;
     border-color:black;
+    position:absolute;
+    bottom:0px;
     
 }

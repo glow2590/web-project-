@@ -12,16 +12,15 @@ li{display:inline;}
 	border-color:black;
 	}
     /*nav bar Elements*/
-.navbar-child {
-    text-decoration:none;
-    color:silver;
-    padding:10px 10px;
-    display:inline;
-    font-style:oblique;
-    float:right;
-    overflow:hidden;
+.footer{
+    width:100%;
+    height:30px;
+    background-color:hsl(565,80%,10%);
+    border-top:1px solid;
+    border-color:black;
+    position:absolute;
+    bottom:0px;
     
-    font-size:large;
 }
 .navbar-child:active{
     
@@ -126,10 +125,12 @@ margin-left: 270px;
 margin-top: 240px;
 }   
 body{
-      background-image:url("55153144217-wallpapers-best-websites.jpg");
+       /* background-image:url("55153144217-wallpapers-best-websites.jpg");
         background-repeat:no-repeat;
-        background-size:cover;
-        margin: 0;
+        background-size:cover;*/
+        background: red;
+        background: -webkit-radial-gradient( bottom,rgba(0, 60,200,1),lightgreen);
+        margin:0;
 }
 /*the Div container*/
 .div-parent{
